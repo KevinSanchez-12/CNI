@@ -1,0 +1,50 @@
+.datos{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 30px;;
+}
+.datos h3{
+    text-align: center;
+    font-weight: 400;
+}
+.datos .item{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.datos .item a{
+    background-color: var(--primario);
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    transition: .3s;
+}
+.datos .item a:hover img{
+    width: 95%;
+    transition: .3s;
+}
+.datos .item a:nth-child(1){
+    background-color: #87ceeb;
+}
+.datos .item a:nth-child(2){
+    background-color: #125E6C;
+}
+.datos .item a:nth-child(3){
+    background-color: #dfdfdf;
+}
+.datos .item a:nth-child(4){
+    background-color: #dfdfdf;
+}
+.datos .item a:nth-child(5){
+    background-color: #ececec;
+}
+.datos .item a img{
+    width: 100%;
+    transition: .3s;
+}
